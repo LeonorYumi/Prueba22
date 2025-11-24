@@ -1,4 +1,7 @@
 package TechESFOT;
 
-public class DatoInvalidoException {
+public class DatoInvalidoException extends Exception {
+    public DatoInvalidoException(String s) {
+        super("mensaje");
+    }
 }
